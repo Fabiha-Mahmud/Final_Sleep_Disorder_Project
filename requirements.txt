@@ -5,4 +5,4 @@ scikit-learn
 joblib
 reportlab
 fpdf
-Add gunicorn for Render deployment
+gunicorn
