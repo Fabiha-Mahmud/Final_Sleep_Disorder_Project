@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Report</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>📊 Prediction Report</h2>
+
+    <table>
+        <tr><th>Prediction</th><td>{{ prediction }}</td></tr>
+        <tr><th>Confidence</th><td>{{ confidence }}%</td></tr>
+        <tr><th>Model Accuracy</th><td>{{ accuracy }}%</td></tr>
+    </table>
+
+    <a class="btn" href="/download">⬇ Download Report</a>
+    <a class="btn secondary" href="/">🔁 New Prediction</a>
+</div>
+
+</body>
+</html>
